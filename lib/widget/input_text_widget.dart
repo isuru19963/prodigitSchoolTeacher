@@ -9,12 +9,11 @@ class InputTextWidget extends StatelessWidget {
 
   const InputTextWidget(
       {required this.labelText,
-        required this.icon,
-        required this.obscureText,
-        required this.keyboardType,
-        this.controller})
+      required this.icon,
+      required this.obscureText,
+      required this.keyboardType,
+      this.controller})
       : super();
-
 
   @override
   Widget build(BuildContext context) {

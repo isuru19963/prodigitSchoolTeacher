@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:schoolteacher/page/onboard/onboard.dart';
-import 'package:schoolteacher/page/onboard/onboarding_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) => MaterialApp(
         debugShowCheckedModeBanner: false,
         title: title,
-        theme: ThemeData(primarySwatch: Colors.blue),
+        theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Poppins'),
         home: OnboardPage(),
       );
 }

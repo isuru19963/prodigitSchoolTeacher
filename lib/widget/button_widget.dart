@@ -7,13 +7,12 @@ class ButtonWidget extends StatelessWidget {
   const ButtonWidget({
     required this.text,
     required this.onClicked,
-
   });
 
   @override
   Widget build(BuildContext context) => RaisedButton(
         onPressed: onClicked,
-        color: Color(0xff4aabc5  ),
+        color: Color(0xff4aabc5),
         shape: StadiumBorder(),
         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 16),
         child: Text(

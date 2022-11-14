@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
 import '../../widget/button_widget.dart';
-import '../auth/signIn/loginScreen.dart';
-import '../home/home_page.dart';
+import '../Parent/auth/signIn/loginScreen.dart';
+import '../Parent/home/home_page.dart';
 
 class OnBoardingPage extends StatelessWidget {
   @override
@@ -59,7 +59,7 @@ class OnBoardingPage extends StatelessWidget {
       );
 
   void goToHome(context) => Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (_) => LoginScreen()),
+        MaterialPageRoute(builder: (_) => ParentLoginScreen()),
       );
 
   Widget buildImage(String path) =>
